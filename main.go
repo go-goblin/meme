@@ -160,7 +160,7 @@ func (g *Generator) Generate(img image.Image) (*image.RGBA, error) {
 	defer fontFace.Close()
 
 	// Позиционируем текст
-	currentY := cfg.Padding + imgHeight + int(fontSize*0.8)
+	currentY := cfg.Padding + imgHeight + int(fontSize*0.8) + 40
 
 	// Добавляем верхний текст
 	if topText != "" {
