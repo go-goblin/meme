@@ -54,7 +54,7 @@ func DefaultConfig() *Config {
 		BorderColor:      color.RGBA{255, 255, 255, 255},
 		TextColor:        color.RGBA{255, 255, 255, 255},
 		TextOutlineColor: color.RGBA{0, 0, 0, 255},
-		TextOutlineWidth: 6,
+		TextOutlineWidth: 0,
 		TextUppercase:    true,
 		AutoFontSize:     true,
 	}
